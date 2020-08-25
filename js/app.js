@@ -27,4 +27,3 @@ baguetteBox.run('.gallery', {
         }
     });
 
-

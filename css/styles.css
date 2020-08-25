@@ -4,7 +4,7 @@
 }
 
 body {
-    max-width: 970px;
+    max-width: 860px;
     margin: auto;
 }
 
@@ -13,19 +13,22 @@ body {
     text-align: center;
 }
 
-#searchInput {
+
+
+#search {
     width: 40%;
     padding: 10px;
     font-size: 16px;
     border: 2px solid lightgrey;
     border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-gap: 30px;
+    grid-gap: 20px;
 } 
 
 
