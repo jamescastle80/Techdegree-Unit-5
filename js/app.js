@@ -16,7 +16,7 @@ baguetteBox.run('.gallery', {
         const slides = document.querySelectorAll(".slide a");
         // loop through photos
         for (let i = 0; i < gallery; i++) {
-            const caption = slide[i].getAttribute('data-caption').toUpperCase();
+            const caption = gallery[i].getAttribute('data-caption').toUpperCase();
 
             if (caption.includes(searchString)) {
                 //show image
