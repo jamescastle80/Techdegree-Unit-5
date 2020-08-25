@@ -34,3 +34,14 @@ body {
     justify-content: center;
 
 }
+
+#baguetteBox-overlay .full-image img {
+    width: 65%;
+    height: 65%;
+}
+
+#baguetteBox-overlay .full-image figcaption {
+    bottom: auto;
+    margin-top: 25px;
+    background-color: rgba(0,0,0,0);
+}
