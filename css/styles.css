@@ -36,8 +36,8 @@ body {
 }
 
 #baguetteBox-overlay .full-image img {
-    width: 65%;
-    height: 65%;
+    max-width: 80%;
+    max-height: 80%;
 }
 
 #baguetteBox-overlay .full-image figcaption {
