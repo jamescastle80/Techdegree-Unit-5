@@ -5,7 +5,7 @@ baguetteBox.run('.gallery', {
 });
 
 
-    
+
     const searchInput = document.getElementById('search');
     //console.log(searchInput);
 
@@ -26,4 +26,5 @@ baguetteBox.run('.gallery', {
             else $(slide[i]).hide();
         }
     });
+
 
