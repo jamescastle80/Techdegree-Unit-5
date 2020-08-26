@@ -13,17 +13,17 @@ baguetteBox.run('.gallery', {
         //console.log(e.target.value);
         const searchString = e.target.value.toUpperCase();
         console.log(searchString);
-        const slides = document.querySelectorAll(".slide a");
+        const slides = document.querySelectorAll('.tile');
         // loop through photos
         for (let i = 0; i < slides.length; i++) {
             const caption = slides[i].getAttribute('data-caption').toUpperCase();
 
             if (caption.includes(searchString)) {
                 //show image
-                $(slide[i]).show();
+                $(slides[i]).show();
             }
                 //hide image
-            else $(slide[i]).hide();
+            else $(slides[i]).hide();
         }
     });
 
